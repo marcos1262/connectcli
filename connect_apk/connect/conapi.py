@@ -18,6 +18,9 @@ class ConnectApi(Enum):
     #证书
     connect_api_certificates = base_api+'certificates',
     
+    # app store versions
+    connect_api_app_versions = base_api + 'appStoreVersions',
+    
     #provision file
     connect_api_profiles = base_api+'profiles',
     
